@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.maindiv{
+    min-height: 640px;
+    background-color: black;
+    color:grey;
+}
+.userdet{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 250px;
+}
+.imgpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userdet img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+  
+}
+.detpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.linepart{
+    display: flex;
+    gap: 15px;
+}
+.btnuser{
+    background-color: rgba(0, 255, 255, 0.308);
+    border: 1px solid cyan;
+    color: white;
+    width: 100px;
+    background-color: darkslategray;
+}
+.userpost{
+    display: flex;
+    align-items: center;
+}
+
+.feeds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    width: 100%;
+    gap: 15px;
+}
+
+
+
+  

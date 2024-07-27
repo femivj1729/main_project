@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.maindiv{
+    display: flex;
+   
+}
+.subdiv1{
+    width: 20%;
+    
+}
+.subdiv2{
+    width: 80%;
+}
+
+

@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 50px;
+}
+.search-container button {
+    
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+   
+}
+input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+  
+  }
+.find{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    height: 500px;
+    color: aliceblue;
+}
+
+section{
+    display: flex;
+    width: 50%;
+    height: 150px;
+    background-color: white;
+    color: black;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.finduser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+body{
+    background-color: black;
+}

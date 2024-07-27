@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.submain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 640px;
+
+}
+.subdiv{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 40%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    
+}
+.uploadpart{
+    background-color:rgba(47, 79, 79, 0.274);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 15px;
+}
+.pic{
+    
+    border: 2px dashed rgba(0, 139, 139, 0.541) ;
+    border-radius: 5px;
+    color:gray;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    color: gray;
+    
+   
+}
+.browse{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cap{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 15px;
+    
+}
+textarea{
+   background-color:rgba(169, 169, 169, 0.116);
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    background-color: rgba(128, 128, 128, 0.87);
+    color:rgba(0, 0, 128, 0.651);
+   
+   
+}
+button a{
+    text-decoration: none;
+    color:rgba(0, 0, 128, 0.651);
+}
+/* button:hover .stars{
+    display: block;
+    filter: drop-shadow(0 0 10px #fffdef);
+} */

@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sub1{
+    background-color: black;
+    min-height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submain{
+    height: 500px;
+    width: 30%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(218, 212, 212, 0.192);
+    backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+    width: 70%;
+    
+  
+}
+
+.signup input{
+    background-color: rgba(197, 29, 85, 0.808);
+    color: white;
+    border: 0;
+}

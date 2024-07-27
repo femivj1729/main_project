@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{% static 'css/adminview.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="subdiv">
+            <div class="part1">
+                <figure><img src="/accounts/{{profile.profile_pic}}" ></figure>
+                <b><i>{{profile.fullname}}</i></b>
+                <p><i>{{profile.bio}}</i></p>
+                <p><i>{{profile.location}}</i></p>
+                
+                
+                
+            </div>
+            <hr>
+            <div class="part2">
+                
+                <img src="/accounts/{{posts.image}}" alt="" height="250" width="300">
+                
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

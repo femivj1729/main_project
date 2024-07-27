@@ -1,0 +1,106 @@
+.div1{
+    display: flex;
+    min-height: 640px;
+}
+.div2{
+    width: 15%;
+    background-color:rgba(0, 0, 0, 0.678);
+    color: white;
+    
+}
+.dv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dv1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div3{
+    width: 90%;
+}
+.div4{
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.opt1{
+    background-color: darkgreen;
+    height: 30px;
+    width: 60px;
+    color: white;
+}
+.opt2{
+    background-color:darkred;
+    height: 30px;
+    width: 60px;
+    color: white;
+}
+.div5{
+    background-color: rgba(128, 128, 128, 0.116);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.tot{
+    display: flex;
+    gap: 30px;
+}
+.t1,.t2,.t3,.t4{
+    
+    width: 20%;
+    height: 100px;
+    color:white ;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+.t1{
+    background-color: rgb(32, 149, 178);
+}
+.t2{
+    background-color: rgba(0, 128, 0, 0.87)
+}
+.t3{
+    background-color:rgba(255, 166, 0, 0.856);
+}
+.t4{
+    background-color: rgba(255, 0, 0, 0.712);
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+  
+}
+#users td, #users th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#users tr:hover {background-color: #ddd;}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* #prof td{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+} */
+.div6{
+    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.678);
+    padding: 10px;
+    width: 88%;
+    
+}
+
+

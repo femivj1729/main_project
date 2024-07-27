@@ -1,0 +1,416 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.sidebar{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-right: 1px solid grey;
+    height: 100%;
+    position: fixed;
+    /* z-index: 1;
+    top: 0;
+    left: 0; */
+}
+.logohead{
+    
+    display: flex;
+    gap: 15px;
+    height: 50px;
+    justify-content: left;
+    align-items: center;
+   
+}
+.logohead img{
+    border-radius: 10px;
+}
+.userhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userhead img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.followhead{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /* padding-left: 20px; */
+}
+.fall span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navhead {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-left: 20px;
+   
+}
+.navhead a{
+    text-decoration: none;
+    color: #818181;
+}
+.navhead a:hover{
+    color: #f1f1f1;
+}
+.navitems {
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+
+
+.topbar{
+    
+    height: 80px;
+}
+
+.topbar a{
+    
+    text-decoration: none;
+}
+.topbar  h5{
+    color: bisque;
+}
+.topbar  h5:hover{
+    color: #f1f1f1;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 50px;
+}
+.topbar .search-container button {
+    
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+   
+}
+.topbar input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+  
+}
+
+
+.contentbar{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.sideone{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.upload{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted gray;
+    background-color: rgba(47, 79, 79, 0.199);
+    
+}
+.feed{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.upload a{
+    text-decoration: none;
+    color: white;
+}
+/* .upload img{
+    height: 250px;
+    width: 350px;
+} */
+
+.detail{
+    display: flex;
+    flex-direction: column;
+  
+}
+.like{
+    display: flex;
+    gap: 20px;
+}
+
+.sidetwo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.sugg{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sugg img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.choose{
+    display: flex;
+    gap: 15px;
+}
+.dir{
+    border: 1px solid white;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #818181a2;
+}
+.choose a{
+    text-decoration: none;
+}
+  
+.head h5{
+    
+    color: bisque;
+}
+.bound{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+@media screen and (max-width:480px) {
+    
+
+    .sidebar{
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-right: 1px solid grey;
+        height: 100%;
+        position: fixed;
+        /* z-index: 1;
+        top: 0;
+        left: 0; */
+       
+    }
+    .logohead{
+        
+        display: flex;
+        gap: 15px;
+        height: 50px;
+        justify-content: left;
+        align-items: center;
+       
+    }
+    .logohead img{
+        border-radius: 10px;
+    }
+    .userhead{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .userhead img{
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    }
+    .followhead{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        /* padding-left: 20px; */
+    }
+    .fall span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navhead {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        padding-left: 20px;
+       
+    }
+    .navhead a{
+        text-decoration: none;
+        color: #818181;
+    }
+    .navhead a:hover{
+        color: #f1f1f1;
+    }
+    .navitems {
+        display: flex;
+        align-items: center;
+        gap:10px
+    }
+    
+    
+    .topbar{
+        
+        height: 80px;
+    }
+    
+    .topbar a{
+        
+        text-decoration: none;
+    }
+    .topbar  h5{
+        color: bisque;
+        
+    }
+    .topbar  h5:hover{
+        color: #f1f1f1;
+    }
+    
+    .search-container{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        height: 50px;
+    }
+    .topbar .search-container button {
+        
+        padding: 6px 10px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+       
+    }
+    .topbar input[type=text] {
+        padding: 6px;
+        font-size: 17px;
+        border: none;
+      
+    }
+    
+    
+    .contentbar{
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+    .sideone{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    
+    .upload{
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px dotted gray;
+        background-color: rgba(47, 79, 79, 0.199);
+        
+    }
+    .feed{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .upload a{
+        text-decoration: none;
+        color: white;
+    }
+    /* .upload img{
+        height: 250px;
+        width: 350px;
+    } */
+    
+    .detail{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .like{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .sidetwo{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    .sugg{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .sugg img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .choose{
+        display: flex;
+        gap: 15px;
+    }
+    .dir{
+        border: 1px solid white;
+        padding-left: 7px;
+        padding-right: 7px;
+        background-color: #818181a2;
+    }
+    .choose a{
+        text-decoration: none;
+    }
+      
+    .head h5{
+        
+        color: bisque;
+    }
+    .bound{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+}
+
